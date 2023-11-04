@@ -1,4 +1,4 @@
-package com.cydeo.runners;
+package com.rsi.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features",
-        glue = "com/cydeo/step_definitions",
+        glue = "com/rsi/step_definitions",
         dryRun = false,
         tags ="",
         publish = true //generating a report with public link
