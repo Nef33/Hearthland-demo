@@ -1,3 +1,4 @@
+
 package com.hearthland.step_definitions;
 
 
@@ -47,9 +48,8 @@ public class US001_StepDefinitions extends BasePage {
     }
     @Then("{string} opportunity\\/opportunities display")
     public void opportunity_opportunities_display(String opportunityName) {
-       boolean actualResult= careerPage.jobTitle.getText().contains(opportunityName);
+        boolean actualResult= careerPage.jobTitle.getText().contains(opportunityName);
 
         Assert.assertTrue(actualResult);
 
-    }
-}
+    }}
