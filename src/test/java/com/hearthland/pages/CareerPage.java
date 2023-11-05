@@ -21,4 +21,7 @@ public class CareerPage {
 
     @FindBy(xpath="//a[@data-automation-id='jobTitle']")
     public  WebElement jobTitle;
+
+    @FindBy(css=".wpb_wrapper")
+    public WebElement scrollUp ;
 }
